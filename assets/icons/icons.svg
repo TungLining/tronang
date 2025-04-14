@@ -1,0 +1,190 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        style="position: absolute; width: 0; height: 0; overflow: hidden;display: block;">
+        <defs>
+            <symbol id="baa-logo" viewBox="0 0 16 16" fill="currentColor">
+                <path
+                    d="M8 4.143A1.071 1.071 0 1 0 8 2a1.071 1.071 0 0 0 0 2.143m-4.668 1.47 3.24.316v2.5l-.323 4.585A.383.383 0 0 0 7 13.14l.826-4.017c.045-.18.301-.18.346 0L9 13.139a.383.383 0 0 0 .752-.125L9.43 8.43v-2.5l3.239-.316a.38.38 0 0 0-.047-.756H3.379a.38.38 0 0 0-.047.756Z">
+                </path>
+                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8"></path>
+            </symbol>
+
+            <symbol id="baa-action" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+            </symbol>
+
+            <symbol id="baa-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M8 12h8m-4-4v8"/>
+            </symbol>
+
+            <symbol id="baa-minus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M8 12h8"/>
+            </symbol>
+
+            <symbol id="baa-darkmode" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" /><path d="M17 4a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2" /><path d="M19 11h2m-1 -1v2" /></symbol>
+
+            <symbol id="baa-reset" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <path d="M3.06 13a9 9 0 1 0 .49 -4.087" />
+                <path d="M3 4.001v5h5" />
+                <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+            </symbol>
+
+            <symbol id="baa-align-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4v16" />
+                <path d="M8 6h12" />
+                <path d="M8 12h6" />
+                <path d="M8 18h10" />
+            </symbol>
+
+            <symbol id="baa-align-center" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 6l16 0" />
+                <path d="M8 12l8 0" />
+                <path d="M6 18l12 0" />
+            </symbol>
+
+            <symbol id="baa-align-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 4v16" />
+                <path d="M4 6h12" />
+                <path d="M10 12h6" />
+                <path d="M6 18h10" />
+            </symbol>
+
+            <symbol id="baa-readable-font" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 20l3 0" />
+                <path d="M14 20l7 0" />
+                <path d="M6.9 15l6.9 0" />
+                <path d="M10.2 6.3l5.8 13.7" />
+                <path d="M5 20l6 -16l2 0l7 16" />
+            </symbol>
+
+            <symbol id="baa-dyslexia-font" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 20h3" />
+                <path d="M14 20h6" />
+                <path d="M6.9 15h6.9" />
+                <path d="M13 13l3 7" />
+                <path d="M5 20l4.09 -10.906" />
+                <path d="M10.181 6.183l.819 -2.183h2l3.904 8.924" />
+                <path d="M3 3l18 18" />
+            </symbol>
+
+            <symbol id="baa-highlight-heading" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M7 12h10" />
+                <path d="M7 5v14" />
+                <path d="M17 5v14" />
+                <path d="M15 19h4" />
+                <path d="M15 5h4" />
+                <path d="M5 19h4" />
+                <path d="M5 5h4" />
+            </symbol>
+
+            <symbol id="baa-highlight-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 15l6 -6" />
+                <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
+                <path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
+            </symbol>
+
+            <symbol id="baa-highlight-hover" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5" />
+                <path d="M11 11.5v-2a1.5 1.5 0 0 1 3 0v2.5" />
+                <path d="M14 10.5a1.5 1.5 0 0 1 3 0v1.5" />
+                <path
+                    d="M17 11.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7l-.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47" />
+                <path d="M2.541 5.594a13.487 13.487 0 0 1 2.46 -1.427" />
+                <path d="M14 3.458c1.32 .354 2.558 .902 3.685 1.612" />
+            </symbol>
+
+            <symbol id="baa-text-magnifier" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 15m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                <path d="M18.5 18.5l2.5 2.5" />
+                <path d="M4 6h16" />
+                <path d="M4 12h4" />
+                <path d="M4 18h4" />
+            </symbol>
+
+            <symbol id="baa-blend-invert" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M17 3.34A10 10 0 1 1 2 12l.005-.324A10 10 0 0 1 17 3.34M8 5.072A8 8 0 0 0 12.001 20L12 4a8 8 0 0 0-4 1.072" />
+            </symbol>
+
+            <symbol id="baa-blend-grayscale" viewBox="0 0 24 24">
+                <path fill="none" stroke="currentColor" stroke-width="2"
+                    d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m9-9v18m0-12l4.65-4.65M12 14.3l7.37-7.37M12 19.6l8.85-8.85" />
+            </symbol>
+
+            <symbol id="baa-blend-dark-contrast" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M12 1.992a10 10 0 1 0 9.236 13.838c.341 -.82 -.476 -1.644 -1.298 -1.31a6.5 6.5 0 0 1 -6.864 -10.787l.077 -.08c.551 -.63 .113 -1.653 -.758 -1.653h-.266l-.068 -.006l-.06 -.002z" />
+            </symbol>
+
+            <symbol id="baa-blend-light-contrast" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <path
+                    d="M3 12h3M5 5l2.121 2.121M19 5l-2.121 2.121M5 19l2.121-2.121M19 19l-2.121-2.121M12 3v3m0 15v-3m6-6h3m-6 0a3 3 0 1 1-6 0a3 3 0 0 1 6 0" />
+            </symbol>
+
+            <symbol id="baa-blend-low-saturation" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <path d="M12 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                <path d="M6.5 17m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                <path d="M17.5 17m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+            </symbol>
+
+            <symbol id="baa-blend-high-saturation" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor"
+                stroke-width="2">
+                <path d="M12 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                <path d="M6.5 17m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                <path d="M17.5 17m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+            </symbol>
+
+            <symbol id="baa-hide-image" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 8h.01" />
+                <path d="M13 21h-7a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v7" />
+                <path d="M3 16l5 -5c.928 -.893 2.072 -.893 3 0l3 3" />
+                <path d="M14 14l1 -1c.928 -.893 2.072 -.893 3 0" />
+                <path d="M22 22l-5 -5" />
+                <path d="M17 22l5 -5" />
+            </symbol>
+
+            <symbol id="baa-stop-animation" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 20a2 2 0 1 0 4 0a2 2 0 0 0 -4 0z" />
+                <path d="M17 20h-2" />
+                <path d="M7 4a2 2 0 1 1 -4 0a2 2 0 0 1 4 0z" />
+                <path d="M7 4h2" />
+                <path d="M14 4h-2" />
+                <path d="M12 20h-2" />
+                <path d="M3 20c8 0 10 -16 18 -16" />
+            </symbol>
+
+            <symbol id="baa-read-mode" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 8v-2a2 2 0 0 1 2 -2h2" />
+                <path d="M4 16v2a2 2 0 0 0 2 2h2" />
+                <path d="M16 4h2a2 2 0 0 1 2 2v2" />
+                <path d="M16 20h2a2 2 0 0 0 2 -2v-2" />
+                <path d="M8 12h8" />
+                <path d="M8 9h6" />
+                <path d="M8 15h4" />
+            </symbol>
+
+            <symbol id="baa-cursor-big" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                    d="M15.768 13.212l-.99 -.99l3.113 -2.09a1.2 1.2 0 0 0 -.309 -2.228l-13.582 -3.904l3.904 13.563a1.2 1.2 0 0 0 2.228 .308l2.09 -3.093l.908 .908" />
+                <path d="M22 22l-5 -5" />
+                <path d="M17 22l5 -5" />
+            </symbol>
+
+            <symbol id="baa-cursor-guide" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                <path d="M19 18v1a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-1" />
+                <path d="M3 14h3m4.5 0h3m4.5 0h3" />
+                <path d="M5 10v-5a2 2 0 0 1 2 -2h7l5 5v2" />
+            </symbol>
+
+            <symbol id="baa-cursor-mask" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                <path d="M4 10l16 0" stroke-width="4" />
+            </symbol>
+
+        </defs>
+    </svg>

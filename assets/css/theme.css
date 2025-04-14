@@ -1,0 +1,73 @@
+@import url(styles.css);
+
+.site-header{background-color:#AF34B5;background-image:linear-gradient(45deg,#B017B7 0%,#2BD2FF 52%,#34E882 90%);color:#fff;position:relative;}
+.site-header > *{position:relative;z-index:1}
+.navbar-brand{font-weight:bolder;color:#fff;border:0;box-shadow:none;font-size:2rem}
+.navbar{background:#950dbb4d;box-shadow:0 0 5rem #0d05ff;border-bottom:1px solid #ffffff4d;position:relative;top:0;left:0;right:0;z-index: 999;}
+.nav-sticky nav.navbar{position:fixed;z-index:99;background:#5494e8;-webkit-animation:fadeInDown 1s ease-in-out .2s both;animation:fadeInDown 1s ease-in-out .2s both}
+.navbar-nav .nav-link{--bs-nav-link-color:#fff;position:relative;text-align: center;}
+.navbar-nav .nav-link:hover::after,.navbar-nav .nav-link.active::after{position:absolute;left:50%;top:0;content:'';display:block;width:6px;height:6px;background:#add504;box-shadow:10px 0 0 0 #add504, -10px 0 0 0 #add504;border-radius:50%;transform:translateX(-50%)}
+.navbar-toggler{--bs-navbar-color:currentColor;background:currentColor;border:0}
+.hero-block,body > :not(.site-header){padding:6rem 0}
+.hero-content-area{font-size:1.5rem}
+.hero-title{font-weight:400;font-style:normal;font-size:2.8rem}
+.hero-title > span{font-size:4rem;display:block;font-weight:700}
+.hero-thumb{display:block;position:relative}
+.hero-thumb > img{position:relative;z-index:1}
+.hero-thumb::after{position:absolute;inset:20% 20% 0 0;content:'';display:block;background:radial-gradient(#000 3px,transparent 0);background-size:30px 30px;z-index:0;border-radius:50%}
+.waves-effect{position: absolute; left: 0; bottom: -5px; width: 100%; height: auto; z-index: 0;}
+.waves-effect > *{width: 100%;}
+.services-block{position:relative;z-index:1; background: #fff; padding-top: 3rem;}
+/*.services-block::before{position: absolute; left:-10%; bottom:90%; height:150px; width: 120%; display: block; background: inherit; content: ''; box-shadow:0 -2rem 0 0 rgba(100,100,100,.3); transform: rotate(-3deg); z-index: -1;}*/
+.title > span{font-size:1.8em;display:block;color:#add504;font-weight:bolder;margin-bottom:.5rem}
+.sub-title{font-weight:700;margin:1rem 0;display:block}
+.about-us-block{background:#e5eaf7}
+.contact-form-block{background:#2e3340;color:#fff}
+@-webkit-keyframes fadeInDown {
+from{opacity:0;transform:translate3d(0,-100%,0)}
+to{opacity:1;transform:translate3d(0,0,0)}
+}
+@keyframes fadeInDown {
+from{opacity:0;transform:translate3d(0,-100%,0)}
+to{opacity:1;transform:translate3d(0,0,0)}
+}
+@media (max-width: 991px) {
+.navbar-collapse.show{background:#304a594d;border-radius:.3rem;padding:1rem;margin:1rem 0}
+}
+
+@-webkit-keyframes fadeIn {
+0%{opacity:0}
+100%{opacity:1}
+}
+@keyframes fadeIn {
+0%{opacity:0}
+100%{opacity:1}
+}
+.paper-plane{position:fixed;inset:0;z-index:99}
+.paper-plane > *{position:absolute;left:0;top:0;opacity:0;-webkit-animation:animationFrames 5s linear;animation:animationFrames 5s linear}
+@-webkit-keyframes animationFrames {
+0%{opacity:1;inset:5% auto auto 5%;transform:rotate(0deg)}
+10%{opacity:1;inset:15% auto auto 10%;transform:rotate(5deg)}
+20%{opacity:1;inset:30% auto auto 15%;transform:rotate(15deg)}
+30%{opacity:1;inset:45% auto auto 20%;transform:rotate(10deg)}
+40%{opacity:1;inset:60% auto auto 25%;transform:rotate(5deg)}
+50%{opacity:1;inset:80% auto auto 30%;transform:rotate(-45deg)}
+60%{opacity:1;inset:60% auto auto 40%;transform:rotate(-50deg)}
+70%{opacity:1;inset:40% auto auto 50%;transform:rotate(-60deg)}
+80%{opacity:1;inset:30% auto auto 70%;transform:rotate(-65deg)}
+90%{opacity:1;inset:20% auto auto 80%;transform:rotate(-70deg)}
+100%{opacity:1;inset:10% auto auto 90%;transform:rotate(-30deg)}
+}
+@keyframes animationFrames {
+0%{opacity:1;inset:5% auto auto 5%;transform:rotate(0deg)}
+10%{opacity:1;inset:15% auto auto 10%;transform:rotate(5deg)}
+20%{opacity:1;inset:30% auto auto 15%;transform:rotate(15deg)}
+30%{opacity:1;inset:45% auto auto 20%;transform:rotate(10deg)}
+40%{opacity:1;inset:60% auto auto 25%;transform:rotate(5deg)}
+50%{opacity:1;inset:80% auto auto 30%;transform:rotate(-45deg)}
+60%{opacity:1;inset:60% auto auto 40%;transform:rotate(-50deg)}
+70%{opacity:1;inset:40% auto auto 50%;transform:rotate(-50deg)}
+80%{opacity:1;inset:30% auto auto 70%;transform:rotate(-55deg)}
+90%{opacity:1;inset:20% auto auto 80%;transform:rotate(-55deg)}
+100%{opacity:1;inset:15% auto auto 90%;transform:rotate(-30deg)}
+}
